@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/warehouse_fragement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ware_back">
+
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:text="@string/select_wh_button"
+        android:id="@+id/select_wh_button"
+        android:minHeight="92sp"
+        android:textSize="22sp"
+        android:onClick="OnWareHouseButtonClick1"
+        android:layout_marginTop="173sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/warehouse_label"
+        android:id="@+id/textView"
+        android:textSize="32sp"
+        android:textColor="#FFFF9C"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56sp" />
+</RelativeLayout>

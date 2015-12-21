@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/car_fragement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/car_select">
+
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:text="Select Vehicle"
+        android:id="@+id/select_car_button"
+        android:minHeight="92dp"
+        android:textSize="22sp"
+        android:background="#ADC2EB"
+        android:textColor="#002D00"
+        android:onClick="OnWareHouseButtonClick"
+        android:clickable="true"
+        android:layout_marginBottom="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/car_select_label"
+        android:textSize="35sp"
+        android:textColor="#252525"
+        android:id="@+id/textView"
+        android:layout_marginTop="54sp"
+        android:textColorHighlight="#1f1f1f"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

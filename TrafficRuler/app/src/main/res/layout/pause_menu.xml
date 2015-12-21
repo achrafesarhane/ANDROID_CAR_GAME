@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:text="Resume"
+        android:id="@+id/btn_Resume"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:layout_marginTop="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:text="Jukebox Selection"
+        android:id="@+id/btn_JukeBoxSelection"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/btn_Resume"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:text="Quit Game"
+        android:id="@+id/btn_QuitGame"
+        android:layout_below="@+id/btn_JukeBoxSelection"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:text="Quit Application"
+        android:id="@+id/btn_QuitApp"
+        android:layout_marginTop="59dp"
+        android:layout_below="@+id/btn_QuitGame"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.iu.se.trafficruler" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/text_effect"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignupActivity" />
+        <activity
+            android:name=".WareHouseActivity"
+            android:label="WareHouse Options"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name=".WareHouseActivity"
+                android:value="WareHouse Activity" />
+        </activity>
+        <activity android:name=".JukeBox" >
+        </activity>
+        <activity
+            android:name=".TuneUpActivity"
+            android:label="Tune Up Options"
+            android:parentActivityName=".WareHouseActivity" >
+            <meta-data
+                android:name=".TuneUpActivity"
+                android:value="Tune Up Activity" />
+        </activity>
+        <activity
+            android:name=".TuneEngineLevelsActivity"
+            android:label="Tune Engine Levels"
+            android:parentActivityName=".TuneUpActivity" >
+            <meta-data
+                android:name=".TuneEngineActivity"
+                android:value="Tune Engine Activity" />
+        </activity>
+        <activity
+            android:name=".ApperanceLevelsActivity"
+            android:label="Apperance Options"
+            android:parentActivityName=".WareHouseActivity" >
+            <meta-data
+                android:name=".ApperanceActivity"
+                android:value="Appereance Activity" />
+        </activity>
+        <activity
+            android:name=".ShowResult"
+            android:label="Show Result"
+            android:parentActivityName=".ApperanceLevelsActivity" >
+            <meta-data
+                android:name=".ShowResult"
+                android:value="Show Result" />
+        </activity>
+        <activity
+            android:name=".Settings_Options_Activity"
+            android:label="@string/title_activity_display_message" >
+        </activity>
+        <activity
+            android:name=".Vehicle_Adapter_Activity"
+            android:label="@string/Vehicle_Adapter_Activity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name=".Vehicle_Adapter_Activity"
+                android:value="Vehicle Adapter Activity" />
+        </activity>
+        <activity
+            android:name=".Pause_Game"
+            android:label="Pause Game"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name=".Pause_Game"
+                android:value="Pause Game" />
+        </activity>
+        <activity
+            android:name=".GameActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="GameActivity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name=".GameActivity"
+                android:value="GameActivity" />
+        </activity>
+        <activity android:name=".Choose_Player_Activity" />
+        <activity android:name=".AfterLogin" />
+        <activity android:name=".CustomizePlayerActivity" />
+        <activity android:name=".PauseJukeboxSel" >
+        </activity>
+        <activity android:name=".HIghScore" >
+        </activity>
+        <activity android:name=".MainMenu" >
+        </activity>
+        <activity
+            android:name=".GameMode"
+            android:label="@string/title_activity_game_type"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".GameOver" >
+        </activity>
+        <activity android:name=".DailyBonus" >
+        </activity>
+    </application>
+
+</manifest>

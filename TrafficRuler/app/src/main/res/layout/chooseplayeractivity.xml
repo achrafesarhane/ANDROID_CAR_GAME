@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@mipmap/back2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Points"
+        android:textSize="16dp"
+        android:id="@+id/textView15"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Player"
+        android:textColor="#FCFCFC"
+        android:textSize="25sp"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:width="50dp"
+        android:text=""
+        android:background="@mipmap/male_character_choose"
+        android:layout_marginLeft="20sp"
+        android:id="@+id/button"
+        android:clickable="true"
+        android:layout_marginTop="78sp"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100sp"
+        android:layout_height="150sp"
+        android:text=""
+        android:layout_marginRight="20sp"
+        android:background="@mipmap/female"
+        android:clickable="true"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button"
+        android:layout_toEndOf="@+id/textView16"
+        android:layout_alignBottom="@+id/button" />
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Customize Player"
+        android:id="@+id/customizeplayer"
+        android:onClick=""
+        android:clickable="true"
+        android:background="#E0E0EB"
+        android:layout_marginTop="45sp"
+        android:layout_below="@+id/button"
+        android:layout_alignEnd="@+id/textView16" />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:id="@+id/btn_StartGame"
+        android:layout_above="@+id/backbuttonchoose"
+        android:layout_alignStart="@+id/customizeplayer" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/backbuttonchoose"
+        android:onClick="OnBackChooseClick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

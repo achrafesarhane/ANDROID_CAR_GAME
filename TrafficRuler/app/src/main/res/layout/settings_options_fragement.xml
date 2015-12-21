@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of the game"
+        android:id="@+id/textView2"
+        android:textSize="28dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/textView3"
+        android:textSize="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/dropdownlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resolution"
+        android:id="@+id/textView4"
+        android:layout_marginTop="32dp"
+        android:textSize="28dp"
+        android:autoText="false"
+        android:focusableInTouchMode="true" />
+
+    <Spinner
+        android:id="@+id/poi_categories"
+        android:layout_width="78dp"
+        android:layout_height="52dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="48dp" /><![CDATA[/>
+
+    ]]>
+
+    <TextView
+        android:id="@+id/selVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="32dp" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JukeBox"
+        android:id="@+id/textView10"
+        android:layout_marginTop="20dp"
+        android:textSize="28dp"
+
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>

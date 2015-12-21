@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/tune_up_level_engine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/engine_1"
+
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            />
+        <Button
+            android:id="@+id/tune_up_level_engine2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/engine_2"
+
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            android:textColorHighlight="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/tune_up_level_engine3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/engine_3"
+
+            android:textSize="20sp"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:layout_margin="15dp"/>
+    </LinearLayout>
+</LinearLayout>

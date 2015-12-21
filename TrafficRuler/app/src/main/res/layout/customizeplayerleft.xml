@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hair"
+        android:id="@+id/hair"
+        android:onClick="OnPlayerClick"
+        android:minHeight="50dp"
+        android:textSize="15sp"
+        android:layout_above="@+id/outfits"
+        android:layout_marginBottom="49dp"
+        android:layout_alignLeft="@+id/outfits"
+        android:layout_alignStart="@+id/outfits"
+        android:layout_alignRight="@+id/outfits"
+        android:layout_alignEnd="@+id/outfits"
+      />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/outfits"
+        android:id="@+id/outfits"
+        android:onClick="OnPlayerClick"
+        android:minHeight="60dp"
+        android:textSize="15sp"
+        android:layout_centerVertical="true"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accessories"
+        android:id="@+id/accessories"
+        android:minHeight="50dp"
+        android:textSize="14sp"
+        android:onClick="OnPlayerClick"
+        android:layout_above="@+id/backbuttoncustom"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="57dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/backbuttoncustom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

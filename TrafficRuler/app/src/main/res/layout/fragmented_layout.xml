@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent"
+    >
+
+    <FrameLayout
+        android:id="@+id/My_Container_1_ID"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/My_Container_2_ID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/My_Container_1_ID"
+        android:background="@color/colorAccent"
+        android:visibility="invisible">
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/My_Container_3_ID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_toRightOf="@+id/My_Container_1_ID"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible">
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/My_Container_4_ID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_toRightOf="@+id/My_Container_1_ID"
+
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true">
+    </FrameLayout>
+</RelativeLayout>

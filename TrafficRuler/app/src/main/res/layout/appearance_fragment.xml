@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appreance_fragement"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@mipmap/app_back">
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+
+        android:text="@string/select_appearance_button"
+        android:id="@+id/select_appearance_button"
+        android:minHeight="92dp"
+        android:textSize="22sp"
+        android:background="#FFFFD2"
+        android:textColor="#002D00"
+
+        android:onClick="OnApperanceClick"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/apperance_panel"
+        android:textColor="#252525"
+        android:textColorHighlight="#1f1f1f"
+        android:textSize="35sp"
+        android:id="@+id/appreance_textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="22sp"
+        android:id="@+id/backappfrag"
+        android:textColor="#252525"
+        android:background="#FFFFD2"
+
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/select_appearance_button"
+        android:layout_marginBottom="53sp" />
+
+
+</RelativeLayout>

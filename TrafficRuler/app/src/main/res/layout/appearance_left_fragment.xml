@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color"
+        android:id="@+id/color_button"
+        android:minHeight="50dp"
+        android:textSize="15sp"
+        android:layout_above="@+id/decals_button"
+        android:layout_marginBottom="49dp"
+        android:layout_alignLeft="@+id/decals_button"
+        android:layout_alignStart="@+id/decals_button"
+        android:layout_alignRight="@+id/decals_button"
+        android:layout_alignEnd="@+id/decals_button"
+        android:onClick="OnApperanceOptionsClick"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decals"
+        android:id="@+id/decals_button"
+        android:minHeight="50dp"
+        android:textSize="15sp"
+        android:layout_centerVertical="true"
+        android:onClick="OnApperanceOptionsClick"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vinyls"
+        android:id="@+id/vinyl_button"
+        android:minHeight="50dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/decals_button"
+        android:layout_alignLeft="@+id/decals_button"
+        android:layout_alignStart="@+id/decals_button"
+        android:layout_marginTop="84dp"
+        android:onClick="OnApperanceOptionsClick"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/vikback"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
